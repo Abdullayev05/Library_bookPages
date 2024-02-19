@@ -28,6 +28,7 @@ header ul {
     gap: 21px;
     display: flex;
 }
+
 header a {
     font-size: 12px;
     font-weight: 400;
@@ -210,4 +211,57 @@ footer .footer_words {
     font-size: 18px;
     font-weight: 400;
     line-height: 35px;
+}
+
+
+@media only screen and (max-width: 320px) {
+    #f_section .fllw {
+        font-size: 15px;
+        width: 250px;
+        padding-top: 200px;
+    }
+
+    #f_section i {
+        font-size: 23px;
+    }
+
+    #search_section h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #search_section input {
+        width: 243px;
+        height: 37px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    #search_section button {
+        font-size: 12px;
+        width: 243px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .words_search_card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search_card {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+        box-shadow: 0px 4px 15px 0px #00000000;
+    }
+    .search_card p {
+        width: 290px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .search_card span{
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -267,3 +267,25 @@ footer .footer_words {
     text-align: center;
     margin-top: 200px;
 }
+
+
+@media only screen and (max-width: 320px) {
+    #f_section .fllw {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #f_section i {
+        font-size: 23px;
+    }
+
+    #book_page_section .words_img {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .display_none {
+        display: none;
+    }
+}

@@ -195,3 +195,50 @@ footer .footer_words {
     text-align: center;
     margin-top: 50px;
 }
+
+
+@media only screen and (max-width: 320px) {
+    #f_section .fllw {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #f_section i {
+        font-size: 23px;
+    }
+
+    #contact_us_section h3 {
+        font-size: 28px;
+    }
+
+    #contact_us_section input {
+        font-size: 12px;
+        width: 243px;
+        height: 38.02px;
+        border-radius: 5px
+    }
+
+    #contact_us_section #note {
+        font-size: 12px;
+        width: 243px;
+        height: 101px;
+        border-radius: 5px
+    }
+
+    #contact_us_section button {
+        font-size: 12px;
+        width: 243px;
+        height: 37px;
+        border-radius: 5px
+    }
+
+    .one_inp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two_inp {
+        display: flex;
+        flex-direction: column;
+    }
+}

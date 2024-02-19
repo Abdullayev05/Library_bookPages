@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .container {
@@ -26,7 +27,6 @@ header {
 header ul {
     display: flex;
     gap: 21px;
-    font-family: 'Monserrat', sans-serif;
 }
 
 header a {
@@ -42,7 +42,6 @@ header a {
 }
 
 .icon_header span {
-    font-family: 'Monserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding-left: 10px;
@@ -70,13 +69,11 @@ header a {
 }
 
 #one_section h3 {
-    font-family: 'Monserrat', sans-serif;
     font-size: 36px;
     font-weight: 900;
 }
 
 #one_section p {
-    font-family: 'Monserrat', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 26px;
@@ -87,11 +84,11 @@ header a {
     width: 212px;
     height: 50px;
     background-color: #E16A00;
-    font-family: 'Monserrat', sans-serif;
     font-size: 15px;
     font-weight: 900;
     color: white;
     border: 0;
+    margin-top: 20px;
 }
 
 .one_section_words {
@@ -106,7 +103,6 @@ header a {
     width: 242px;
     height: 76px;
     border-radius: 10px;
-    font-family: 'Monserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 27px;
@@ -130,7 +126,6 @@ header a {
 }
 
 #two_section h3 {
-    font-family: 'Monserrat', sans-serif;
     font-size: 25px;
     font-weight: 900;
     line-height: 49px;
@@ -142,20 +137,17 @@ header a {
 }
 
 #three_section h3 {
-    font-family: 'Monserrat', sans-serif;
     font-size: 25px;
     font-weight: 900;
     line-height: 49px;
 }
 
 #three_section h4 {
-    font-family: 'Monserrat', sans-serif;
     font-size: 50px;
     font-weight: 900;
 }
 
 #three_section span {
-    font-family: 'Monserrat', sans-serif;
     font-size: 13px;
     font-weight: 400;
 }
@@ -176,7 +168,6 @@ header a {
 }
 
 #three_section p {
-    font-family: 'Monserrat', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
@@ -216,7 +207,6 @@ footer .footer_words {
 
 .footer_words span {
     padding-top: 10px;
-    font-family: 'Monserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 35px;
@@ -228,8 +218,73 @@ footer .footer_words {
     flex-direction: column;
     font-size: 13px;
     font-weight: 400;
-    font-family: 'Monserrat', sans-serif;
     line-height: 26px;
     font-weight: 1900;
     color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 320px) {
+    #one_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #one_section h3 {
+        font-size: 28px;
+    }
+
+    #one_section p {
+        font-size: 13px;
+        width: 290px;
+    }
+
+    #one_section button {
+        width: 290px;
+        margin-top: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one_btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two_btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thr_btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book_background {
+        width: 277px;
+        height: 260px;
+    }
+
+    #three_section .number_word {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #three_section .span_h {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #three_section .fllw {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #three_section i {
+        font-size: 23px;
+    }
 }
