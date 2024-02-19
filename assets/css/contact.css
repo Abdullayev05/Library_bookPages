@@ -29,6 +29,13 @@ header ul {
     display: flex;
 }
 
+header a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #241400;
+}
+
 .logo_ul_li {
     display: flex;
     justify-content: space-between;
