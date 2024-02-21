@@ -41,17 +41,10 @@ header a {
     justify-content: space-between;
 }
 
-.icon_header span {
-    font-family: 'Roboto', sans-serif;
+.icon_header a {
     font-size: 14px;
     font-weight: 400;
     padding-left: 10px;
-
-}
-
-.icon_header {
-    display: flex;
-    gap: 10px;
 }
 
 footer {

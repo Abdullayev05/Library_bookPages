@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .container {
@@ -26,7 +27,6 @@ header {
 header ul {
     display: flex;
     gap: 21px;
-    font-family: 'Monserrat', sans-serif;
 }
 
 header a {
@@ -41,16 +41,10 @@ header a {
     justify-content: space-between;
 }
 
-.icon_header span {
-    font-family: 'Monserrat', sans-serif;
+.icon_header a {
     font-size: 14px;
     font-weight: 400;
     padding-left: 10px;
-}
-
-.icon_header {
-    display: flex;
-    gap: 10px;
 }
 
 footer {
@@ -78,7 +72,6 @@ footer .footer_words {
 
 .footer_words span {
     padding-top: 10px;
-    font-family: 'Monserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 35px;
@@ -90,7 +83,6 @@ footer .footer_words {
     flex-direction: column;
     font-size: 13px;
     font-weight: 400;
-    font-family: 'Monserrat', sans-serif;
     line-height: 26px;
     font-weight: 1900;
     color: #FFFFFF;
@@ -131,7 +123,6 @@ body {
     font-size: 25px;
     font-weight: 900;
     line-height: 49px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #swipers {
@@ -148,7 +139,6 @@ body {
 }
 
 .all_div span {
-    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 26px;
@@ -165,7 +155,6 @@ body {
 .card img {
     width: 134.23px;
     height: 190px;
-    /* margin: 30px 30px; */
     padding-top: 30px;
     margin-left: 30px;
 }
@@ -175,7 +164,6 @@ body {
 }
 
 .card h3 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 27px;
@@ -183,7 +171,6 @@ body {
 }
 
 .card span {
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
@@ -196,7 +183,6 @@ body {
     height: 29px;
     border-radius: 3px;
     border: 0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 900;
     line-height: 24px;
@@ -208,7 +194,6 @@ body {
 .besteller h1 {
     text-align: center;
     padding-top: 100px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: 900;
 }
@@ -220,7 +205,6 @@ body {
 }
 
 .follow h3 {
-    font-family: 'Monserrat', sans-serif;
     font-size: 25px;
     font-weight: 900;
     line-height: 49px;
@@ -236,7 +220,6 @@ body {
 }
 
 .numb_btn button {
-    font-family: 'Monserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 27px;
@@ -248,7 +231,6 @@ body {
 }
 
 .numb_btn span {
-    font-family: 'Monserrat', sans-serif;
     font-size: 12px;
     font-weight: 900;
     line-height: 24px;

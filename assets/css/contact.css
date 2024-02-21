@@ -41,16 +41,10 @@ header a {
     justify-content: space-between;
 }
 
-.icon_header span {
+.icon_header a {
     font-size: 14px;
     font-weight: 400;
     padding-left: 10px;
-
-}
-
-.icon_header {
-    display: flex;
-    gap: 10px;
 }
 
 footer {
@@ -173,7 +167,7 @@ footer .footer_words {
 }
 
 #contact_us_section #note {
-    width: 1142px;
+    width: 1080px;
     height: 153px;
 }
 
