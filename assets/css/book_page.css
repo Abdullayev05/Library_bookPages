@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .container {
@@ -20,13 +21,11 @@ header {
     height: 100px;
     position: fixed;
     padding-top: 30px;
-    background-color: rgb(217, 224, 224);
 }
 
 header ul {
     gap: 21px;
     display: flex;
-    font-family: 'Monserrat', sans-serif;
 }
 
 header a {
